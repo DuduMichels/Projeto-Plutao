@@ -1,0 +1,571 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    max-width: 100%;
+}
+
+/*Cabeçalho*/
+.cabecalho{
+    text-align: center;
+    padding-top: 80px;
+    background-color: black;
+}
+
+/*Imagem de fundo*/
+.bg{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 0;
+}
+
+/*Título plutão*/
+.cabecalho-titulo{
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    letter-spacing: 25px;
+    font-weight: 300;
+    font-size: 2.4em;
+    padding-bottom: 60px;    
+}
+
+/*menu*/
+.cabecalho-menu-item{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1.2em;
+    color: rgb(255, 255, 255);
+    padding: 50px;
+    padding-bottom: 0px;  
+}
+
+/*passar mouse menu*/
+.cabecalho-menu-item:hover{
+    color: #ee553a ;
+    transition-duration: .7s;
+}
+
+/*conteudo da viagem*/
+.conteudo-principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    line-height: 25px;
+    gap: 40px;
+}
+
+/*título Viagem para Plutão*/
+.conteudo-principal-titulo{
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    letter-spacing: 25px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+/*parágrafo Viagem para Plutão*/
+.conteudo-principal-paragrafo{
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 0px 10px;
+}
+
+/*subtítulo Viagem para Plutão*/
+.conteudo-principal-subtitulo{
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    color: #c15845;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+/*subtitulo fases da viagem*/
+.conteudo-principal-paragrafo2{
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: 300;
+    
+}
+
+/*3 botôes*/
+.conteudo-principal-botoes{
+    display: flex;
+    gap: 30px;
+    padding-bottom: 30px;
+
+}
+
+/*botão vermelho*/
+.conteudo-principal-preparacao{
+    height: 120px;
+    width: 120px;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    background-color: #c15845;
+    border-radius: 50%;
+}
+
+.conteudo-principal-preparacao:hover{
+    background-color: #ee553a;
+    transition-duration: .8s;
+}
+
+/*botão bege*/
+.conteudo-principal-viagem{
+    height: 120px;
+    width: 120px;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    background-color: #988e84;
+    border-radius: 50%;
+}
+
+.conteudo-principal-viagem:hover{
+    background-color: #c8b7a7;
+    transition-duration: .8s
+}
+
+/*botão azul*/
+.conteudo-principal-pouso{
+    height: 120px;
+    width: 120px;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    background-color: #0e2038;
+    border-radius: 50%;
+}
+
+.conteudo-principal-pouso:hover{
+    background-color: #153865;
+    transition-duration: .8s
+}
+
+/*imagem de fundo da sessão*/
+.tickets{
+    background-image: url(imagens/espaco.png); 
+}
+
+/*título Tickets*/
+.titulo-tickets{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    font-weight: 300;
+    letter-spacing: 25px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-size: 1.5em;
+}
+
+/*menus Tickets*/
+.menus-ticket{
+    display: flex;  
+    flex: row;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+}
+
+/*titulo economica*/
+.economica-subtitulo{
+    padding-bottom: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+
+/*itens lista economica*/
+.economica{
+    color: rgb(255, 255, 255);
+    padding-bottom: 100px;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.economica-lista{
+    list-style: none;
+}
+
+/*botão economica*/
+.economica-botao{
+    margin-top: 30px;
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #c15845;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    border-style: none;
+}
+
+.economica-botao:hover{
+    background-color: transparent;
+    color: #ee553a;
+    border: #ee553a;
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+}
+
+/*titulo executiva*/
+.executiva-subtitulo{
+    padding-bottom: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+
+/*itens lista executiva*/
+.executiva{
+    color: rgb(255, 255, 255);
+    padding-bottom: 100px;
+    text-align: right;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.executiva-lista{
+    list-style: none;
+}
+
+/*itens lista executiva*/
+.executiva-botao{
+    margin-top: 30px;
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #0e2038;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    border-style: none;
+}
+
+.executiva-botao:hover{
+    background-color: #153865;
+    cursor: pointer;
+    background-color: transparent;
+    color: #153865;
+    border: #153865;
+    border-style: solid;
+    border-width: 1px;
+}
+
+
+.famosos{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/*titulo famosos*/
+.famosos-titulo{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-top: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1.8em;
+    letter-spacing: 20px;
+}
+
+/*imagens dos famosos*/
+.imagens-famosos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding-top: 50px;
+    
+}
+
+.cj{
+    width: 150px;
+}
+.ronaldinho{
+    width: 150px;
+}
+.kim{
+    width: 150px;
+}
+
+/*paragrafo (e muito +)*/
+.famosos-paragrafo{
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    color: #000000;
+    letter-spacing: 2px;
+    font-size: 30px;
+    padding-top: 50px;
+    font-weight: 400;
+}
+
+/*titulo comprar ticket*/
+.quero-ticket-titulo{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-top: 120px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1.8em;
+    letter-spacing: 20px;
+    margin: 25px;
+}
+
+/*botoes comprar ticket*/
+.botões{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    padding-top: 10px;
+}
+
+/*botão economica*/
+.quero-ticket-economica{
+    margin-top: 30px;
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #c15845;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    border-style: none;
+    }
+    
+.quero-ticket-economica:hover{
+    background-color: transparent;
+    color: #ee553a;
+    border: #ee553a;
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    }
+
+/*botão executiva*/
+.quero-ticket-executiva{
+    margin-top: 30px;
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #0e2038;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    border-style: none;
+    }
+    
+
+.quero-ticket-executiva:hover{
+    background-color: #153865;
+    cursor: pointer;
+    background-color: transparent;
+    color: #153865;
+    border: #153865;
+    border-style: solid;
+    border-width: 1px;
+    }
+
+/*imagem rodapé*/
+.rodape{
+    background-image: url(imagens/espaco-footer.png);
+    
+    margin-top: 100px;
+    }
+
+/*titulo rodape*/
+.embreve-titulo{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-top: 250px;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1.8em;
+    letter-spacing: 20px;
+    }
+
+/*creditos rodape*/ 
+.rodape-paragrafo{
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: 300;
+    padding-bottom: 20px;
+    }
+
+.contatos-rodape{
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: 300;
+    padding-top: 200px;
+    }
+
+.redes-sociais{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin: 50px;
+    font-family: 'Josefin Sans', sans-serif;
+    
+    font-size: 1.2em;
+    }
+
+.redes-sociais a{
+    color: #c15845;
+    }
+
+.redes-sociais a:hover{
+    color: white;
+}
+
+@media (max-width: 950px) {
+    .menus-ticket{ 
+        gap: 80px;
+    }
+
+    /*titulo famosos*/
+    .famosos-titulo{
+        line-break: normal;
+        line-height: 35px;
+        letter-spacing: 15px;
+        margin: 20px;
+    }
+
+    /*titulo comprar ticket*/
+    .quero-ticket-titulo{
+        padding-top: 80px;
+        line-height: 40px;
+        letter-spacing: 15px; 
+        margin: 20px;
+    }
+
+    .embreve-titulo{
+        margin: 20px;
+    }
+}
+
+@media (max-width: 750px) {
+
+    .cabecalho{
+        text-align: center;
+        padding-top: 50px;
+        background-color: black;
+    }
+
+    .cabecalho-titulo{
+        font-size: 2em;
+        padding-bottom: 30px;    
+    }
+
+    /*menu*/
+    .cabecalho-menu-item{
+        font-weight: 200;
+        font-size: 1em;
+        padding: 20px;
+        padding-bottom: 0px;  
+    }
+
+    /*título Viagem para Plutão*/
+    .conteudo-principal-titulo{
+        padding-top: 30px;
+        letter-spacing: 20px;
+        line-height: 35px;
+    }
+
+    .menus-ticket{
+        display: flex;  
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 80px;
+    }
+
+    .titulo-tickets{
+        padding-top: 80px;
+        padding-bottom: 50px;
+        font-size: 1.5em;
+    }
+
+    .economica{
+        text-align: center;  
+    }
+
+    .executiva{
+        text-align: center;
+    }
+
+    /*titulo famosos*/
+    .famosos-titulo{
+        line-height: 35px;
+        letter-spacing: 15px;
+    }
+
+    .imagens-famosos{
+        flex-direction: column;
+        gap: 20px;
+        padding-top: 50px;
+    }
+
+    /*titulo comprar ticket*/
+    .quero-ticket-titulo{
+        padding-top: 50px;
+        line-height: 35px;
+        letter-spacing: 20px;
+    }
+
+    .embreve-titulo{
+        padding-top: 200px;
+        line-height: 40px;
+        margin: 15px;
+        letter-spacing: 20px;
+    }
+
+    .contatos-rodape{
+        padding-top: 50px;
+    }
+
+    .rodape-paragrafo{
+        letter-spacing: 2px;
+        font-size: 20px;
+        font-weight: 300;
+        padding-bottom: 20px;
+    }
+
+}
