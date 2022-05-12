@@ -574,3 +574,48 @@
     }
 
 }
+
+@media (max-width: 508px) {
+    /*título Viagem para Plutão*/
+    .conteudo-principal-titulo{
+        letter-spacing: 10px;
+
+        margin: 0px 35px;
+    }
+
+    /*botão vermelho*/
+.conteudo-principal-preparacao{
+    height: 90px;
+    width: 90px;
+    font-size: 12px;
+    }
+    /*botão bege*/
+    .conteudo-principal-viagem{
+        height: 90px;
+        width: 90px;
+        font-size: 12px;
+    }
+    /*botão azul*/
+    .conteudo-principal-pouso{
+        height: 90px;
+        width: 90px;
+        font-size: 12px;
+    }
+
+    /*titulo famosos*/
+    .famosos-titulo{
+        line-break: normal;
+        line-height: 35px;
+        letter-spacing: 10px;
+        margin: 20px;
+    }
+
+    /*botoes comprar ticket*/
+    .botões{
+        
+        gap: 50px;
+       
+}
+
+
+}
