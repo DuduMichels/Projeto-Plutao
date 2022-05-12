@@ -281,6 +281,7 @@
 .famosos{
     text-align: center;
     font-family: 'Josefin Sans', sans-serif;
+    background-color: white;
 }
 
 /*titulo famosos*/
@@ -292,6 +293,7 @@
     text-transform: uppercase;
     font-size: 1.8em;
     letter-spacing: 20px;
+   
 }
 
 /*imagens dos famosos*/
@@ -303,6 +305,7 @@
     align-items: center;
     gap: 100px;
     padding-top: 50px;
+    
     
 }
 
@@ -337,6 +340,7 @@
     font-size: 1.8em;
     letter-spacing: 20px;
     margin: 25px;
+    background-color: rgb(255, 255, 255);
 }
 
 /*botoes comprar ticket*/
@@ -347,6 +351,7 @@
     justify-content: center;
     gap: 100px;
     padding-top: 10px;
+    background-color: rgb(255, 255, 255);
 }
 
 /*botão economica*/
