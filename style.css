@@ -623,5 +623,11 @@
         letter-spacing: 20px;
     }
 
+    /*creditos rodape*/ 
+.rodape-paragrafo{
+    line-height: 30px;
+    margin: 0px 20px;
+    }
+
 
 }
